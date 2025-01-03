@@ -5,4 +5,4 @@ scrape_configs:
   - job_name: "node"
     static_configs:
       - targets:
-          - "172.17.131.196:9100"   # IP WSL 2
+          - "ip agent:9100"   # IP WSL 2
